@@ -1,0 +1,10 @@
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/list_install_components.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/install/local.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/apriltag_python.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/apriltag.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/install.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/apriltag_demo.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/edit_cache.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/install/strip.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/opencv_demo.dir
+/home/boibe18/workspace/kinect_mapping_workspace/apriltag/CMakeFiles/rebuild_cache.dir

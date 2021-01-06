@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4.c
+lz4.h
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4.h
+intrin.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4.h
+
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4hc.c
+lz4hc.h
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+lz4.c
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4.c
+
+/home/boibe18/workspace/kinect_mapping_workspace/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+stddef.h
+-
+
