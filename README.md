@@ -26,6 +26,8 @@ git clone https://github.com/AprilRobotics/apriltag_ros.git  # Clone Apriltag RO
 # find-object
 git clone https://github.com/introlab/find-object.git
 cd find-object/ ; git checkout melodic-devel ; cd ../
+# rgbd_launch
+git clone https://github.com/ros-drivers/rgbd_launch.git
 
 # To install to a different directory than /usr/local: DO --> PREFIX=/some/path sudo make install
 # install to usr/local
