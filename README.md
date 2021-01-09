@@ -2,8 +2,9 @@
 
 files for ros melodic on ubuntu 18 and commands which gathered the data at the time
 These instructions allow you to have a mostly self contained rtab and kinect set up and generate a mesh file from it.
+
 I used this to make a point cloud of my buildings hallway for fun.
-!( point cloud of my hallway )[./media/my_hallway_pointcloud.gif "point cloud of my hallway"]
+![point cloud of my hallway ](./media/my_hallway_pointcloud.gif "point cloud of my hallway")
 
 ## an absurdly easy set up instructions I made
 I assume you are using ros melodic
