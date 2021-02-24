@@ -15,24 +15,19 @@ mkdir -p kinect_mapping_workspace/src
 cd kinect_mapping_workspace/src
 git clone https://github.com/ros-drivers/freenect_stack.git
 # rtabmap_ros
-git clone https://github.com/introlab/rtabmap_ros.git
-cd rtabmap_ros ; git checkout melodic-devel ; cd ../
+git clone -b melodic-devel  https://github.com/introlab/rtabmap_ros.git
 # navigation - move_base
-git clone https://github.com/ros-planning/navigation.git
-cd navigation ; git checkout melodic-devel ; cd ../
+git clone  -b melodic-devel  https://github.com/ros-planning/navigation.git
 # geometry2 - tf2
-git clone https://github.com/ros/geometry2.git
-cd geometry2 ; git checkout melodic-devel ; cd ../
+git clone  -b melodic-devel  https://github.com/ros/geometry2.git
 # navigation_msgs is already made for kinetic and above - move_base_msgs
 git clone https://github.com/ros-planning/navigation_msgs.git
 # octomap msgs
-git clone https://github.com/OctoMap/octomap_msgs.git
-cd octomap_msgs/ ; git checkout melodic-devel ; cd ../
+git clone  -b melodic-devel  https://github.com/OctoMap/octomap_msgs.git
 # apriltag_ros
 git clone https://github.com/AprilRobotics/apriltag_ros.git  # Clone Apriltag ROS wrapper
 # find-object
-git clone https://github.com/introlab/find-object.git
-cd find-object/ ; git checkout melodic-devel ; cd ../
+git clone  -b melodic-devel  https://github.com/introlab/find-object.git
 # rgbd_launch
 git clone https://github.com/ros-drivers/rgbd_launch.git
 
@@ -62,4 +57,9 @@ catkin_make
 ```
 
 
+# RUNNING
+```
+roslaunch freenect_launch freenect.launch depth_registration:=true
+roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start
+```
 
